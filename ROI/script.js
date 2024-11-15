@@ -14,14 +14,14 @@ const timePerReturnS = document.getElementById("time-per-return-slider");
 const hourlyWageS = document.getElementById("hourly-wages-slider")
 
 
-/* annualOrdersS.addEventListener("input",function(){
+annualOrdersS.addEventListener("input",function(){
     
     const value = annualOrdersS.value;
     annualOrdersI.value = value;
 
-    console.log(value); */
+    console.log(value);
 
-// }) ;
+ }) ;
 annualOrdersS.oninput = function(){
     const value = annualOrdersS.value;
     annualOrdersI.value = value;
